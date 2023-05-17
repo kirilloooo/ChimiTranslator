@@ -1,0 +1,52 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="#FFFFFF"
+		android:orientation="horizontal">
+		<androidx.cardview.widget.CardView
+			android:id="@+id/cardview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:cardElevation="0dp"
+			app:cardCornerRadius="12dp">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="8dp"
+				android:background="#EAEDF6"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/tv_text"
+					android:focusable="false"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="2dp"
+					android:text="Text"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					android:textColor="#263238"
+					android:singleLine="true" />
+				<TextView
+					android:id="@+id/tv_translated_text"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Translated text"
+					android:textSize="14sp"
+					android:textColor="#455A64"
+					android:singleLine="true" />
+			</LinearLayout>
+		</androidx.cardview.widget.CardView>
+	</LinearLayout>
+</LinearLayout>

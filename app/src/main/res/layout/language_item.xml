@@ -1,0 +1,44 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="35dp"
+		android:paddingTop="10dp"
+		android:paddingRight="35dp"
+		android:paddingBottom="10dp"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+		<TextView
+			android:id="@+id/lang_name"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			android:paddingTop="4dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="4dp"
+			android:text="Language name"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:textColor="#455A64"
+			android:layout_weight="1" />
+		<ImageView
+			android:id="@+id/imageview1"
+			android:focusable="false"
+			android:layout_width="25dp"
+			android:layout_height="25dp"
+			android:layout_margin="1dp"
+			android:padding="5dp"
+			android:background="#FFFFFF"
+			android:src="@drawable/ic_check"
+			android:scaleType="centerInside"
+			android:elevation="1dp" />
+	</LinearLayout>
+</LinearLayout>
